@@ -1,0 +1,48 @@
+Column(
+                  
+                
+                crossAxisAlignment: CrossAxisAlignment.center ,
+                children: [              
+
+                  Row(
+                    children: [
+                     Text(" Length(நீளம்) "),
+                     SizedBox(width: 80),
+                     SizedBox(
+                       width: screenWidth*0.3,
+                       child: TextField(
+                          decoration: InputDecoration(
+                          hintText: 'Enter length',                    
+                         ),),
+                     ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                     Text(" Count(எண்ணிக்கை) "),
+                     
+                     SizedBox(width: 25),
+                     SizedBox(
+                       width: screenWidth*0.3,
+                       child: TextField(
+                          decoration: InputDecoration(
+                          hintText: 'Enter Count',                    
+                         ),),
+                     ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                     Text(" Price(விலை) "),
+                     SizedBox(width: 80),
+                     SizedBox(
+                       width: screenWidth*0.3,
+                       child: TextField(
+                          decoration: InputDecoration(
+                          hintText: 'Enter Price',                    
+                         ),),
+                     ),
+                    ],
+                  )                  
+                ],
+                )
